@@ -25,7 +25,7 @@ const Home = () => {
           <span className="before:block before:absolute p-2 before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
             <span className="relative text-white font-bold p-3">Welcome</span>
           </span>
-          <p class="mt-10 text-[30px] font-bold font-[Poppins]">Hi, I am Krushna Babhulkar </p>
+          <p className="mt-10 text-[30px] font-bold font-[Poppins]">Hi, I am Krushna Babhulkar </p>
           <h1 className="text-4xl mb-0 pl-0 pt-5">A passionate developer crafting </h1>
 
           <h1 className="text-4xl mb-0 pl-0 pb-9 pt-4">seamless digital experiences.</h1>
