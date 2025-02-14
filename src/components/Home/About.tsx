@@ -25,7 +25,7 @@ const About = () => {
         {"<About Me/>"}
       </h1>
 
-      <div className="px-4 md:px-20 py-20 gap-8 grid grid-cols-1 md:grid-cols-3 items-center">
+      <div className="px-4 md:px-20 py-20 gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
         <motion.div
           initial={{ x: -20, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -99,11 +99,11 @@ const About = () => {
           </div>
           <div>
             <h3 className="mt-8 mb-4 font-bold text-lg underline">Skills </h3>
-            <div>
+            <div className="flex flex-wrap gap-2">
               {skills.map((skill, index) => (
                 <span
                   key={index}
-                  className="text-xs border p-2 border-pri-200 rounded-full mr-3 
+                  className="text-xs border p-2 border-pri-200 rounded-full  flex-wrap 
                      hover:shadow-[0_0_10px_rgba(0,255,255,0.8)] 
                      hover:border-cyan-400 transition duration-300"
                 >
